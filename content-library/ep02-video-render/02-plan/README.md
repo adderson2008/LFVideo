@@ -60,6 +60,14 @@ source_workflow: /02-content-planning
 
 ---
 
+## 必讲要点覆盖映射
+
+> 本 README 只定义**分镜结构**；口播"必须讲到哪些要点"以人工定稿 **`tutorial.final.md`** 文末的「必讲要点覆盖清单」为**唯一真相源**（按章节列出，标注对应本文件段号）。
+> 下游 `/04-script-draft` **必读 `tutorial.final.md`**，并逐条核对该清单，确保每条必讲要点在口播里都有对应表达（避免只凭本大纲展开而漏掉 tutorial 细节）。
+> 分工：`tutorial.md` = AI 自动产物；`tutorial.final.md` = 人工修订定稿（`status: approved` 后方可进入 03/04）。
+
+---
+
 ## 3. 待验证假设清单 (assumptions_to_verify)
 
 1. **假设 1**：在模块顶层用 `typeof window !== 'undefined'` 守卫，是否能 100% 规避 Remotion 在 Node 端打包/求值阶段的 `window is not defined` 报错。
